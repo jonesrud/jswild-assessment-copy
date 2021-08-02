@@ -4,11 +4,17 @@ body {
   background-image: url(https://cdn.evergreenlandscapes.ca/wp-content/uploads/2018/06/grass.jpg.webp);
   background-size: cover;
   text-align: center;
+  font-size: 22px;
+  font-family: 'Indie Flower', cursive;
   color: yellowgreen;
-  font-family: "Courier New", Courier, monospace;
 }
 
 img {
   border: thick double yellow;
   border-radius: 50%;
+}
+
+#next {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px
 }

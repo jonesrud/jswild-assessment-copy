@@ -24,7 +24,6 @@ function showPhotos(data) {
   let currentPhoto = arrayOfPhotos[0];
   console.log(currentPhoto);
   let img = document.createElement("img");
-  // img.src = assembleImageSourceURL(currentPhoto)
 
   document
     .getElementById("next")
