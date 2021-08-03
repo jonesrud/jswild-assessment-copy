@@ -27,7 +27,7 @@ function showPhotos(data) {
 
   document
     .getElementById("next")
-    .addEventListener("click", (displayNextPhoto) => {
+    .addEventListener("click", function()  {
       currentPhotoIndex += 1;
       if (arrayOfPhotos[currentPhotoIndex]) {
         img.src = assembleImageSourceURL(arrayOfPhotos[currentPhotoIndex]);
